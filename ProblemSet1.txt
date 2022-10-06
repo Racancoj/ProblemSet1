@@ -1,0 +1,148 @@
+The printed-out letter grade is 'U' because gradeLetter 
+
+was set to 'U' inside the class Grade 
+
+  
+
+  
+
+The letter grade was set to 'A' so when gradeLetter was printed 
+
+it printed  
+
+  
+
+The new object Grade can store any letter, symbol or a number  
+
+from 0 to 65535 
+
+  
+
+  
+
+Assignment Questions 
+
+  
+
+1. In java all variables have to be defined clearly and can not be 
+
+changed to a different type Afterwords. 
+
+you cannot use a string variable to do a math calculation or a number  
+
+variable to store a word  
+
+  
+
+2. 
+
+Encapsulation prevents implementation details from being  
+
+seen by code outside of the encapsulated code. It is a form 
+
+of data hiding and abstraction. It allows a programmer  
+
+to use a class without having to know its implementation. 
+
+  
+
+A constructor initializes objects. A constructor is called a 
+
+ Default constructor when it doesn't have any parameters.  
+
+The name of the constructor is always the same as the class.  
+
+  
+
+An accessor method accesses data in an object without  
+
+changing the object. 
+
+  
+
+A mutator method modifies the data in an object. 
+
+  
+
+An instance variable is declared inside the class and outside  
+
+The scope of any method. the value of an instance variable can 
+
+ be changed by any method in the class, but it is not accessible 
+
+from outside the class. 
+
+
+
+Object Reference refers to an object. It is the memory  
+
+Location of an object.  
+
+  
+
+  
+Built-ins or Primitives are the most fundamental data type. 
+
+There are 8 primitive data types: Boolean, byte,  
+
+character, short, int, long, float, and double. 
+
+  
+
+3. The main method is executed first by a Java application. 
+
+ 
+
+4. The compiler translates high-level languages into machine code  
+
+required by the CPU. 
+
+5. 
+
+The class Grade belongs to the package edu.monmouth.grade 
+
+The instance variable is gradeLetter 
+
+There are two constroctors  
+
+public Grade() { 
+
+		gradeLetter = 'U'; 
+
+	} 
+
+	
+and 
+
+	public Grade(char gradeLetter) { 
+
+		this.gradeLetter = gradeLetter; 
+
+ 
+
+	
+The accessor method 
+
+	public char getGradeLetter() { 
+
+		return gradeLetter; 
+
+	} 
+
+ 
+
+The mutator method 
+
+public void setGradeLetter(char gradeLetter) { 
+
+		this.gradeLetter = gradeLetter; 
+
+	 
+
+	} 
+
+ 
+
+This code does not compile because double quotes
+cannot be used for a char they are use for a 
+string
